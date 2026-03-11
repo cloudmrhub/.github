@@ -1,12 +1,8 @@
-## Hi there 👋
+Overview
+In this project we are developing an openly shared “virtual scanner” in order to broaden access to MRI experiments by decoupling them from MRI machines.
 
-<!--
+The advancement of magnetic resonance imaging technologies has had a tremendous impact on healthcare in the last half century. However, most MRI research continues to be predicated on access to scanners, an overwhelming majority of which are primarily used for clinical imaging. The resulting bottleneck has contributed to limiting research on MRI to a relative niche. The goal of this project is to relax this constraint and accelerate the pace of innovation by making available Cloud MR, an open-source simulation platform that puts a virtual scanner at the fingertips of anyone with an internet-connected web browser.
 
-**Here are some ideas to get you started:**
+Through a web-based graphical user interface, Cloud MR aims at allowing researchers to test new MRI technologies and enabling radiologists to optimize clinical protocols without operating an MR scanner. The platform is expected to make possible radiofrequency coil modeling, pulse sequence design, and the development of image reconstruction methods—functionalities that we also anticipate to be valuable tools in education and training. Other potential benefits of simulated MRI experiments include the capacity to generate realistic synthetic MR data for training neural networks—hence to address a major research need without raising privacy concerns associated with patient data—and a decrease in MR-research-related carbon emissions.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+We are developing Cloud MR with the goal of making all its constituent applications free and accessible via the portal cloudmrhub.com. Planned operating modes include the alternative to set up simulation jobs in a web browser and run them in the cloud or to download containers and run jobs on a local workstation. The source code and compiled executables are being released through GitHub at github.com/cloudmrhub.
